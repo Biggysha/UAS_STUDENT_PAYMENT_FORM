@@ -1,0 +1,4 @@
+mysql -u root --password=  //to enter the MySQL database
+javac -cp ./mysql-connector-j-9.1.0.jar PaymentSystemForm.java //to compile java file
+java -cp ".;mysql-connector-j-9.1.0.jar" PaymentSystemForm //to run jar file
+
